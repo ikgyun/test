@@ -54,5 +54,5 @@ sequelize.sync({ force:false, })
 app.use('/',router); // 비동기
 
 app.listen(3000,()=>{
-    console.log('server start port 3000');
+    console.log('server start port 3300');
 });
